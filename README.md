@@ -1,1 +1,1 @@
-# httparty-rspec--ruby.
+# httparty-rspec-ruby
