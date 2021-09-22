@@ -30,3 +30,6 @@ Para verificar se vai funcionar
 ```sh
 rspec
 ```
+Describe: Describe é usado para explicar o que está sendo trabalhado. Normalmente, você descreverá uma classe e ela envolverá todas as chamadas. 
+It: são os casos de teste que são executados dentro do bloco de Describe.
+Context: Faz a mesma coisa que o Describe e permite contextualizar um bloco de teste.
