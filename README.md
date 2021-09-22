@@ -38,4 +38,24 @@ Para verificar se vai funcionar
 ```sh
 rspec
 ```
-# 
+# Usando tags
+
+comando padrão
+```sh
+rspec . --tag nome_da_tag
+```
+
+Exemplo do arquivo tag_spec.rb
+```sh
+rspec . --tag teste_tag
+```
+
+```sh
+rspec . --tag tteste_simbolo
+```
+
+Para não rodar determinadas tags, deve ser configurar em .rspec: 
+
+--tag ~nome_tag
+
+Dessa forma ao rodar todos os testes, ele será ignorado
