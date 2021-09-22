@@ -1,0 +1,1 @@
+# httparty-rspec--ruby.
