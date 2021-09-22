@@ -21,5 +21,4 @@ describe 'Somar' do
         expect(total).to eq 0
         
     end
-
 end
