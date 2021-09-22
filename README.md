@@ -20,6 +20,7 @@ Boas praticas: https://www.betterspecs.org
 
 - Context: Faz a mesma coisa que o Describe e permite contextualizar um bloco de teste.
 
+- Let: Ao definir uma variável fazendo uso de let ela não é imediatamente criada em memória, ou seja, let é lazy loading. Depois da primeira execução o valor da variável fica armazenado em cache até que o teste termine. Quando a variável for chamada novamente irá apenas utilizar esse valor armazenado sem precisar executar novamente. Quando teste terminar, o valor da variável irá morrer do cache.
 
 # Execução
 
@@ -37,4 +38,4 @@ Para verificar se vai funcionar
 ```sh
 rspec
 ```
-# Execução
+# 
