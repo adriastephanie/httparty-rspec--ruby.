@@ -15,4 +15,11 @@ describe 'Somar' do
         
     end
 
+    it 'soma de decimais' do
+        total = 2.0+ 3.0
+        puts total
+        expect(total).to eq 5.0
+        
+    end
+
 end
