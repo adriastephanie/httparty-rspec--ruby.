@@ -14,10 +14,10 @@ end
  
   #nao quero que rode esta tag
  
-describe 'correndo ', :nao_teste_tag do
+#describe 'correndo ', :nao_teste_tag do
 
-    it 'com tag dois' do
-        puts 'usei a tag com nome nao_teste_tag'
-    end
+    #it 'com tag dois' do
+        #puts 'usei a tag com nome nao_teste_tag'
+    #end
 
-end
+#end
